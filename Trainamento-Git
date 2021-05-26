@@ -3,12 +3,17 @@ git config --global user.name ""
 git config --global user.email ""
 git config --global core.editor 
 
-git init
-git dir ou tree /f
-git status
-git commit -am ""
+git init                            -> cria repositorio
+git dir ou tree /f                  -> mostra os arquivos da pasta 
+git status 
+git commit -Am "" / git add -A      -> adiciona as mudanças e commita
 git log
-git branch
-git branch nomedanovabranch
-git chackout branch
+git branch                          ->mostra a branch em uso atual
+git branch nomedanovabranch         -> cria outra branch
+git chackout branch                 -> muda para outra branch
 git reset --soft ou mixed ou hard
+git diff                            -> mostra as mudanças feita
+git diff --name-only                -> mostra somente o nome do aquivo que ouve as mudanças 
+git diff nomedoarquivo              -> mostra as alterações do arquivo específico 
+git chekout HAED --nomedoarquivo    -> volta as alterações do arquivo em específico
+git remote
