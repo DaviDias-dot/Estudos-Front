@@ -17,3 +17,6 @@ git diff --name-only                -> mostra somente o nome do aquivo que ouve 
 git diff nomedoarquivo              -> mostra as alterações do arquivo específico 
 git chekout HAED --nomedoarquivo    -> volta as alterações do arquivo em específico
 git remote
+
+git branch -M main
+git push main
