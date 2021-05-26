@@ -1,0 +1,12 @@
+.borda{
+    border-width: 5px;
+
+    border-color: red;
+    border-radius: 5px;
+}
+
+.dotted {border-top-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.none {border-style: none;}
+.hidden {border-style: hidden;}

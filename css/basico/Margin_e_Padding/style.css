@@ -1,0 +1,16 @@
+#margen{
+    height: 10px;
+    background-color: red;
+}
+
+#container{
+    color: white;
+    background-color: blue;
+    margin: 10px; /*Margem para fora*/ 
+}
+
+#container2{
+    color: white;
+    background-color: red;
+    padding: 10px; /*Margem para dentro*/ 
+}

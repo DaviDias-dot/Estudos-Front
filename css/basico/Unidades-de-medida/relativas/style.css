@@ -1,0 +1,23 @@
+.conteiner{
+    font-size: 20px;
+}
+
+.conteiner2{
+    width: 50vmax;/*vmax ou vmin -> relativo a largura da pagina*/
+    background-color: red;
+}
+
+.inside{
+    font-size: 1em; /*relativo ao tamanho da  fonte pai*/
+}
+
+.inside2{
+    font-size: 1rem; /*Relativo ao tamanho da fonte raiz*/
+}
+
+.inside3{
+    width: 50vh; /*vh ->relativo a altura da pagina*/
+    background-color: blue;
+}
+
+/*existe tambem o % que é referente ao tamanho do elemento pai*/

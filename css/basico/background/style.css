@@ -1,0 +1,13 @@
+.principal{
+    color:white; /* cor do texto*/
+    background-color: red; /*fundo com cor*/
+    background-image: url(../Fundos/download.jpg);/*fundo com imagem*/
+}
+
+body{
+    background-image: url(../Fundos/download.jpg);/*por no fundo sa pagina (body)*/
+    background-repeat: no-repeat; /*não repetir a imagem -> existe tambem reapet-x(y)*/
+    /*background-size: cover; /*ajusta o tamanho*/
+    background-attachment: fixed; /*rola junto com a pagina*/
+    background-position: center; /*centraliza*/
+}
