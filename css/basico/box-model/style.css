@@ -1,0 +1,25 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner{
+    background-color: red;
+    padding: 5px;
+    border: 5px solid blue;
+    margin: 10px;
+}
+
+.conteudo{
+    background-color: #ddd;
+    border: 5px solid green; /*outline -> nao respeita box model*/
+    padding: 5px;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 10px solid black;
+    box-sizing: border-box;
+}

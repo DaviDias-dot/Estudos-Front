@@ -1,0 +1,23 @@
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0;
+    padding: 10px;
+    background-color: pink;
+}
+
+ol {
+    list-style: upper-roman;
+    list-style-position: inside;
+    margin: 0;
+    padding: 10px;
+    background-color: blue;
+}
+
+li {
+    border: 1px solid;
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,11 @@
+p{
+    color: red;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 15px; /*paragrafo*/
+    text-decoration: overline underline line-through; /*linha em cina do texto, sublinhado e riscado*/
+    letter-spacing: 1.5px; /*espaço entre letras*/
+    line-height: 15px; /*altura da linha*/
+    word-spacing: 15px; /*distancia das palavras*/
+    text-shadow: 2px 2px black;
+}
