@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <script>
+        function changeH1(i) {
+            let h1 = document.getElementsByTagName("h1")[0]
+            h1.innerText = i.value;
+        }
+
+        function hide(i) {
+            let h1 = document.getElementsByTagName("h1")[0]
+            h1.style.display = "none";
+        }
+
+        function onOver(elemento) {
+            elemento.style.backgroundColor = "red";
+        }
+
+        function onOut(elemento) {
+            elemento.style.backgroundColor = "cadetblue";
+        }
+
+        function loaded() {
+            let t = document.getElementById("teste")
+            t.onclick = mudarText;
+        }
+
+        function mudarText() {
+            this.innerHTML = "Novo Texto";
+        }
+    </script>
+
+    <style>
+        div {
+            padding: 10px;
+            background-color: cadetblue;
+            display: inline-block;
+            margin: auto;
+            font-size: 1.2rem;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body onload="console.log('Página completamente carregada')" onload="loaded()">
+
+    <h2 id="teste">Teste</h2>
+    <h1>Clique em mim</h1>
+    <input type="text" oninput="changeH1(this)">
+
+    <div onclick="hide(this)">Click</div>
+
+    <div onmouseover="onOver(this)" onmouseout="onOut(this)">Click</div>
+</body>
+
+</html>

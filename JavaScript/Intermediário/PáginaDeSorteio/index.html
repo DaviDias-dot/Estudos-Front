@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <script>
+        function sortear() {
+            let nn = 100;
+            let ns = Math.round(Math.random() * nn);
+            document.getElementById("d").innerHTML = ns;
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="d"></h1>
+    <button onclick="sortear()">Sortear</button>
+</body>
+
+</html>

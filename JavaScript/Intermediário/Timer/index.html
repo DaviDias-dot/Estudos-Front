@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+
+    <script>
+        function mudarCor() {
+            let h = document.getElementsByTagName("h1")[0];
+            h.style.color = "blue";
+        }
+
+        function mudarTexto() {
+            let h = document.getElementsByTagName("h1")[0];
+            h.innerHTML = "Novo titúlo";
+            setTimeout(mudarCor, 3000)
+        }
+    </script>
+</head>
+
+<body>
+    <h1> título</h1>
+    <input onclick="mudarTexto()" type="submit" value="Mudar">
+</body>
+
+</html>
