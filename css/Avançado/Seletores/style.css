@@ -1,0 +1,16 @@
+* {
+    /*seleciona todos elementos da página */
+    margin: 0;
+}
+
+[width] {
+    background-color: green;
+}
+
+
+/* Exemplos
+    [title ^= "pega o que estiver no inicio"]
+    [title $= "pega o que estiver no fim"]
+    [title *= "pega o que estiver em qualquer lugar"]
+    [title ~= "pega todas aspalavras que estejam aqui"]
+*/
