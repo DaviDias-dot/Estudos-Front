@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
